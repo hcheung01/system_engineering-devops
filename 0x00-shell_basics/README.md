@@ -12,4 +12,5 @@
 11. ls -la . .. /boot list 3 directories
 12. file /tmp/iamafile to print the file type
 13. ln -s /bin/ls __ls__ to create a symbolic link
-14. cp -u *.html ..
+14. cp -u *.html .. to copy to different directory and and only HTML files
+15. mv *[A-Z]* /tmp/u move all files starting with uppercase letter 
