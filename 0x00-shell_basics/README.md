@@ -9,4 +9,4 @@
 8. rm /tmp/holberton/betty to remove file
 9. rm -r /tmp/holberton/ to remove directory
 10. cd - to previous directory
-11. ls -la . .. /boot to list 3 directories
+11. ls -la . .. /boot list 3 directories
