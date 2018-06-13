@@ -4,3 +4,4 @@
 3. ls -l to list long files in current directory
 4. ls -la -l to display current directory contents, including hidden files and long format
 5. ls -na to display groups and user numerically  in long format
+6. mkdir /tmp/holberton to create new directory 
