@@ -3,4 +3,4 @@
 2. cd to change working directory to home directory
 3. ls -l to list long files in current directory
 4. ls -la -l to display current directory contents, including hidden files and long format
-
+5. ls -ln to display groups and user in long format
