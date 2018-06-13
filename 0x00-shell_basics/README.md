@@ -7,4 +7,4 @@
 6. mkdir /tmp/holberton/ to create new directory 
 7. touch /tmp/holberton/betty  moving files
 8. rm /tmp/holberton/betty to remove file
-9. rmdir /tmp/holberton to remove directory
+9. rm -r /tmp/holberton/ to remove directory
