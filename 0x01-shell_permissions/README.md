@@ -6,4 +6,4 @@ Shell permissions
 3. groups to print all the groups the current user is part of
 4. chown to change owner of a file
 5. chmod u+x to change permission to execute
-6. chmod u=x,g=x,o=r hello to add execute permission to the owner and group plus read permissions to others
+6. chmod ug+x,o+r hello to add execute permission to the owner and group plus read permissions to others
