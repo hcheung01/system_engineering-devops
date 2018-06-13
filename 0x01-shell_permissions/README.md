@@ -14,3 +14,4 @@ Shell permissions
 11. chmod -R  a+X . to change permissions for all subdirectories
 12. mkdir -m751 dir_holberton to create new directory with 751 permissions
 13. chown :holberton hello to change group owner
+14. chown betty:holberton * to change all files and directories
