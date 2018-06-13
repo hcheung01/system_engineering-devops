@@ -1,0 +1,1 @@
+1. pwd to access current working file directory
