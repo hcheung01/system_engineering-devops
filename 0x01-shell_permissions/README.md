@@ -11,3 +11,4 @@ Shell permissions
 8. chmod 007 hello to set all permissions to others only
 9. chmod 753 hello to set specific permissions
 10. chmod --reference=olleh hello to set one file equal to another file
+11. chmod a+x / to change permissions for all subdirectories
