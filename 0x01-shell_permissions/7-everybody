@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 111 /working/hello
+chmod 751 hello
