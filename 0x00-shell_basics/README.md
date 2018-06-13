@@ -8,4 +8,4 @@
 7. touch /tmp/holberton/betty  moving files
 8. rm /tmp/holberton/betty to remove file
 9. rm -r /tmp/holberton/ to remove directory
-10. cd .. to previous directory
+10. cd - to previous directory
