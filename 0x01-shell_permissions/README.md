@@ -10,4 +10,4 @@ Shell permissions
 7. chmod a+x hello to add execution permission to user, groups, other
 8. chmod 007 hello to set all permissions to others only
 9. chmod 753 hello to set specific permissions
-10. chmod hello=olleh to set one file equal to another file
+10. chmod --reference=olleh hello to set one file equal to another file
