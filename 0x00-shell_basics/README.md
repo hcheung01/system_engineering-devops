@@ -16,3 +16,4 @@
 15. mv [[:upper:]]* /tmp/u move all files starting with uppercase letter 
 16. rm *~ to remove all files ending with ~ using *
 17. mkdir -p welcome/to/holberton to create multiple directories
+18. ls -mapv to list all the files and directories of the current directories
