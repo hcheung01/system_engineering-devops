@@ -15,3 +15,4 @@
 14. cp -u *.html .. to copy to different directory and and only HTML files
 15. mv [[:upper:]]* /tmp/u move all files starting with uppercase letter 
 16. rm *~ to remove all files ending with ~ using *
+17. mkdir -p welcome/to/holberton to create multiple directories
