@@ -13,3 +13,4 @@ Shell permissions
 10. chmod --reference=olleh hello to set one file equal to another file
 11. chmod -R  a+X . to change permissions for all subdirectories
 12. mkdir -m751 dir_holberton to create new directory with 751 permissions
+13. chown :holberton hello to change group owner
