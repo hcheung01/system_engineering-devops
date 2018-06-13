@@ -11,3 +11,4 @@
 10. cd - to previous directory
 11. ls -la . .. /boot list 3 directories
 12. file /tmp/iamafile to print the file type
+13. ln -s /bin/ls _ls_ to create a symbolic link
