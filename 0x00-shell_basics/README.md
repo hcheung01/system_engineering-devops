@@ -6,3 +6,4 @@
 5. ls -na to display groups and user numerically  in long format
 6. mkdir /tmp/holberton/ to create new directory 
 7. touch /tmp/holberton/betty  moving files
+8. rm /tmp/holberton/betty to remove file
