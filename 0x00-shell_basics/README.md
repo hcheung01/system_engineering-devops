@@ -2,5 +2,5 @@
 1. ls to display content list
 2. cd to change working directory to home directory
 3. ls -l to list long files in current directory
-4. ls -a -li to display current directory contents, including hidden files and long format
+4. ls -la -li to display current directory contents, including hidden files and long format
 
