@@ -9,3 +9,4 @@ Shell permissions
 6. chmod ug+x,o+r hello to add execute permission to the owner and group plus read permissions to others
 7. chmod a+x hello to add execution permission to user, groups, other
 8. chmod 007 hello to set all permissions to others only
+9. chmod 753 hello to set specific permissions
