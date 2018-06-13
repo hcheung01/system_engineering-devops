@@ -14,3 +14,4 @@
 13. ln -s /bin/ls __ls__ to create a symbolic link
 14. cp -u *.html .. to copy to different directory and and only HTML files
 15. mv [[:upper:]]* /tmp/u move all files starting with uppercase letter 
+16. rm *~ to remove all files ending with ~
