@@ -1,1 +1,1 @@
-#!/bin/bash                                                                    rm -v *"\"
+#!/bin/bash                                                                    rm *~
