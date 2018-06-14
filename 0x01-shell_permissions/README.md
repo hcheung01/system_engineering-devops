@@ -17,3 +17,6 @@ Shell permissions
 14. chown -R betty:holberton .  to change all files and directories
 15. chown -h betty:holberton _hello to change owner and group owner for file
 16. chown --from=guillame betty hello to change owner if it is a specified user
+
+EXTRA CREDIT
+17. telnet towel.blinkenlights.nl to play Star Wars
