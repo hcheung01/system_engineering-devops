@@ -20,3 +20,4 @@ Shell permissions
 
 EXTRA CREDIT
 17. telnet towel.blinkenlights.nl to play Star Wars
+18. Man extra credit
