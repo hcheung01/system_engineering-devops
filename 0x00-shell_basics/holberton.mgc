@@ -1,2 +1,3 @@
-#!/bin/bash
-file -C -m holberton
+0 string HOLBERTON holberton Data
+!:mime Holberton
+
