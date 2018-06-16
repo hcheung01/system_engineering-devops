@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 cat.txt >> iacta
+tail -n 1 iacta

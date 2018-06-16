@@ -6,6 +6,6 @@
 6. head -n 3 iacta | tail -n 1
 7. echo "Holberton School" > "\*\\'"Holberton" "School"\'\\*$\?\*\*\*\*\*:)" to create file name with special characters
 8. ls -la > ls_cwd_content to push list into file
-9. tail -n 1 cat.txt >> iacta to push last line into another file
+9. tail -n 1 iacta to push last line into another file
 10. find . -name \*.js -type f -delete to remove files in current directory or subdirectories.
 11. 
