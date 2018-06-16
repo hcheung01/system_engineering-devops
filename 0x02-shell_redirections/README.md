@@ -16,4 +16,6 @@
 16. grep -A 3 "root" /etc/passwd find "root" pattern and display 3 lines after
 17. grep -v "bin" /etc/passwd to display lines not containing the pattern
 18. grep -e [:alpha:] /etc/ssh/sshd_config to display all lines starting with a letter
-19. 
+19. tr Ac Ze for swapping specific characters
+20. tr -d cC to delete all letters c and C from input
+21.
