@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i -e 'A,c/Z,e'
