@@ -12,3 +12,4 @@
 12.
 13. sort | uniq -u for inputs and outputing same characters with no duplicates
 14. grep -e "root" /etc/passwd to find "root" in passwd directory
+15. sort -e "bin" /etc/passwd to find "bin" and output number of lines
