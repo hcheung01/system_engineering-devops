@@ -9,3 +9,5 @@
 9. tail -n 1 iacta >> iacta to push last line into another file
 10. find . -name \*.js -type f -delete to remove files in current directory or subdirectories.
 11. 
+12.
+13. sort | uniq -u for input and outputing same characters with no duplicates
