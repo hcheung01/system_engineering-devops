@@ -1,4 +1,4 @@
-1. echo -e "Hello, World \n" to print the string
+1. echo "Hello, World" to print the string
 2. cat /etc/passwd to display the content of the the file passwd
 3. cat /etc/passwd /etc/hosts to display two files contents
 4. tail /etc/passwd to display the last 10 lines of passwd file
