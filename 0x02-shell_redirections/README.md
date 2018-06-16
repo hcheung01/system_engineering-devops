@@ -14,4 +14,4 @@
 14. grep -e "root" /etc/passwd to find "root" in passwd directory
 15. sort -e "bin" /etc/passwd | wc -l to find "bin" and output number of lines
 16. grep -A 3 "root" /etc/passwd find "root" pattern and display 3 lines after
-17. grep -v "bin" /etc/passwd to display lies not containing the pattern
+17. grep -v "bin" /etc/passwd to display lines not containing the pattern
