@@ -19,3 +19,4 @@
 19. tr Ac Ze for swapping specific characters
 20. tr -d cC to delete all letters c and C from input
 21. rev to reverse string inputs
+22. cut -d : -f 1,7 /etc/passwd to display users and home directory
