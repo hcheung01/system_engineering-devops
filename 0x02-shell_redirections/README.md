@@ -18,4 +18,4 @@
 18. grep -e [:alpha:] /etc/ssh/sshd_config to display all lines starting with a letter
 19. tr Ac Ze for swapping specific characters
 20. tr -d cC to delete all letters c and C from input
-21.
+21. rev to reverse string inputs
