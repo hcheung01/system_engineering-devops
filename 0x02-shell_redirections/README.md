@@ -22,3 +22,4 @@
 22. sort /etc/passwd | cut -d : -f 1,7 to display and sort users and home directory
 23. find -empty -printf "%f\n" to find all empty files and directories in current directory
 24.   
+25.
