@@ -8,8 +8,8 @@
 8. ls -la > ls_cwd_content to push list into file
 9. tail -n 1 iacta >> iacta to push last line into another file
 10. find . -name \*.js -type f -delete to remove files in current directory or subdirectories.
-11. 
-12.
+11. find . maxdepth 1 -type d -print | wc -l to search and count subdirectories print by per line
+12. ls -t -1 | head to display first 10 lines of directory
 13. sort | uniq -u for inputs and outputing same characters with no duplicates
 14. grep -e "root" /etc/passwd to find "root" in passwd directory
 15. sort -e "bin" /etc/passwd | wc -l to find "bin" and output number of lines
