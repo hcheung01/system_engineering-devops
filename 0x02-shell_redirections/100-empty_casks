@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -print f
+find . -empty -printf "%p"
