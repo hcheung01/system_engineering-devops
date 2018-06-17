@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c | tr -d “\n” | echo -e "\n"
+cut -c | tr -d “\n” | printf '%s\n"
