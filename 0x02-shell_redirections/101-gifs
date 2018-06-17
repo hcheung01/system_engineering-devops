@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name *.txt -printf "%f\n"
+find . -name *.gif -printf "%f\n"
