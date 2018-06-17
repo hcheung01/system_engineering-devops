@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -name "*.txt" -printf "%f%s\n"
