@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.txt" -printf "%f\n"
+find . -name "*.txt" -printf "%f\n" | cut -d "." -f 1 | sort -n
