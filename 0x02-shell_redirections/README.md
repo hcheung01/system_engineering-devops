@@ -20,4 +20,5 @@
 20. tr -d cC to delete all letters c and C from input
 21. rev to reverse string inputs
 22. sort /etc/passwd | cut -d : -f 1,7 to display and sort users and home directory
-23. 
+23. find -empty -printf "%f\n" to find all empty files and directories in current directory
+24.   
