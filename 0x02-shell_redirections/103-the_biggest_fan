@@ -1,2 +1,2 @@
-#!/bin/bash
-
+q#!/bin/bash
+tr "\t" "~" | cut -d"~" -f1 | sort | uniq -c | sort -r -n | cut -c9-55 | head -n 11

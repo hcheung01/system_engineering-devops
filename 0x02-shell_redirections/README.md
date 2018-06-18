@@ -7,7 +7,7 @@
 7. echo -e "Holberton School\n" > "\*\\'"Holberton" "School"\'\\*$\?\*\*\*\*\*:)" to create file name with special characters.
 8. ls -la > ls_cwd_content to push list into file
 9. tail -n 1 iacta >> iacta to push last line into another file
-10. find . -name \*.js -type f -delete to remove files in current directory or subdirectories.
+10. find . -name \*.js -type f -delete to remove files in current directory or subdirectories
 11. find . maxdepth 1 -type d -print | wc -l to search and count subdirectories print by per line
 12. ls -t -1 | head to display first 10 lines of directory
 13. sort | uniq -u for inputs and outputing same characters with no duplicates
@@ -21,5 +21,5 @@
 21. rev to reverse string inputs
 22. sort /etc/passwd | cut -d : -f 1,7 to display and sort users and home directory
 23. find -empty -printf "%f\n" to find all empty files and directories in current directory
-24.   
+24. find . -type f -name "*.gif" -printf "%f\n" | rev | cut -d. -s -f2- | rev | LC_ALL=C sort -f to search for gifs in current and subdirectories with no extension  
 25. echo $(cut -c 1 | tr -d "\n") using echo variable expansion to decode acrostics
