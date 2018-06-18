@@ -5,3 +5,5 @@
 5. set to print all variables and functions
 6. BETTY="Holberton" to create new local variable
 7. export HOLBERTON="Betty" to create new global variable
+8. echo $((TRUEKNOWLEDGE + 128)) to add 128 to $TRUEKNOWLEDGE
+9. 
