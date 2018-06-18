@@ -3,3 +3,5 @@
 3. 
 4. printenv to print environmental variables
 5. set to print all variables and functions
+6. BETTY="Holberton" to create new local variable
+7. export HOLBERTON="Betty" to create new global variable
