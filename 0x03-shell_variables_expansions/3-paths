@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -ds : " " | wc -w
+tr -d ":" " " | wc -w
