@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${a..o
+echo {a..z}{a..z} | tr -s "oo"
