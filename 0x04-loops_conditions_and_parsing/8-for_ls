@@ -2,5 +2,5 @@
 # display all contents of current directory
 
 for file in ./*; do
-    echo `basename "$file"` | awk -F"-" '{print $NF}'
+    echo "$file" | awk -F"-" '{print $NF}'
 done
