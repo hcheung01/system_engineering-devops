@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# print text to stdout 10 times
+
+a="Holberton School"
+for i in {1..10}
+do
+    echo "$a"
+done
