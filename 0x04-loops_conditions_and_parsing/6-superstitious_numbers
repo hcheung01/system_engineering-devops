@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# displays number from 1 to 20 except...
+
+i=1
+while true; do
+    echo $i
+    if [ $i -eq 4 ]
+    then
+	echo "bad luck from China"
+    elif [ $i -eq 9 ]
+    then
+	echo "bad luck from Japan"
+    elif [ $i -eq 17 ]
+    then
+        echo "bad luck from Italy"
+    elif [ $i -eq 20 ]
+    then
+	break
+    fi
+    i=$((i+1))
+done
