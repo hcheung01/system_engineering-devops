@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # display all contents of current directory
-
-for file in ./*; do
+DIR=$(ls)
+for file in $DIR; do
     echo "$file" | cut -d "-" -f2
 done
