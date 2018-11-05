@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# display special string 10 times using until loop
+
+i=0
+until [ $i == 10 ]; do
+    echo "Holberton School"
+    ((i++))
+done
