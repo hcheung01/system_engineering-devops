@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# print same string 10 times except 1 iteration with different string
+
+for i in {1..10}; do
+    if [ $i == 9 ]
+    then
+	echo "Hi"
+	continue
+    fi
+echo "Holberton School"
+done
