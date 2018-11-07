@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# start, stop, restart process script
 if [ "$1" == "start" ]; then
     ./manage_my_process &
     echo "$!" > /var/run/my_process.pid
