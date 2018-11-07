@@ -24,6 +24,6 @@ int main(void)
 			exit(0);
 		i++;
 	}
-	sleep(30);
+	sleep(100);
 	return (0);
 }
