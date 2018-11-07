@@ -7,9 +7,9 @@
  * main - zombies
  *
  * Description: make five zombies
- * Return: nna
+ * Return: 0 for success
  */
-void main(void)
+int main(void)
 {
 	int i;
 	pid_t pidme;
@@ -25,4 +25,5 @@ void main(void)
 		i++;
 	}
 	sleep(30);
+	return (0);
 }
