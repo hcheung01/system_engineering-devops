@@ -3,7 +3,7 @@
 ---
 ## Description
 
-This project in the High Level Programming series is about:
+This project in the System engineering & DevOps ― Networking series is about:
 * OSI model concepts and fundamentals
 * LAN concepts, usage and geographical size
 * WAN concepts, usage and geographical size
