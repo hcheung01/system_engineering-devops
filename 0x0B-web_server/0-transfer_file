@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
 # transfers a file from client to server
-file="ssh ubuntu@$2 -i $4/$3 'ls ~/'$1"
-if [ $# -lt 3 ]; then
+if [ $# != 4 ]; then
     echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
-elif [ ! -f "$file" ] && [ $# == 4 ]; then
-    touch "$1"
-    scp -o StrictHostKeyChecking=no "$1" ubuntu@"$2":~/
-    rm "$1"
-    ssh ubuntu@y"$2" -i "$4"/"$3" 'ls ~/'
+else
+    scp -o StrictHostKeyChecking=no -i $4 $3@$2:~/
 fi
