@@ -3,4 +3,4 @@
 apt-get -y update
 apt-get install -y nginx
 echo "Holberton School and Heindrick's server" > /usr/share/nginx/html/index.html
-service nginx retart
+service nginx restart
