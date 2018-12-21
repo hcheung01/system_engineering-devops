@@ -2,5 +2,5 @@
 # install nginx web server and create html pages
 apt-get -y update
 apt-get install -y nginx
-echo "Holberton School and Heindrick's server" > /usr/share/nginx/html/index.html
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
 service nginx restart
