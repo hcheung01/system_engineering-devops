@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Run Apache on container and to return a page containing a string
+echo "ServerName localhost" | sudo tee /etc/apache2/conf-available/fqdn.conf
