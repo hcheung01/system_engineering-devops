@@ -2,6 +2,7 @@
 '''Define get function'''
 import MySQLdb
 
+
 def main():
     # 3 arguments take in
     # make a connection
