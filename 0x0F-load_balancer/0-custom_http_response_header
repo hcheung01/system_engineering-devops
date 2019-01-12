@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# setup additional web server
+apt-get -y update
+apt-get install -y nginx
+
+service nginx restart
