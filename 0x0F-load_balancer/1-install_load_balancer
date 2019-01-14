@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# install load balancer with round robin
+apt-get install -y software-properties-common
+add-apt-repository ppa:vbernat/haproxy-1.8
+apt-get update && apt-get upgrade -y
+apt-get install -y haproxy=1.8.\*
+#sed -i "s/ENABLED=0/ENABLED=1/g" /etc/default/haproxy
+
+echo -e "global\n\tlog 127.0.0.1 local0 notice\n\tmaxconn 2000\n\tuser haproxy\n\tgroup haproxy" > /etc/haproxy/haproxy.cfg
