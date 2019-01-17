@@ -8,7 +8,7 @@ func()
     elif [ $# -eq 1 ]; then
 	for sub in 'www' '404-lb-01' '404-web-01' '404-web-01'; do
 	    fdqn=$sub.$1
-	    dig $fdqn | grep -A1 'ANSWER SECTION:' | tail -n 1 | awk '{split($1, spl, ".")} {printf "The subdomain %s is a %s record and points to %s\n",spl[1],$4,$5}'
+	    dig "$fdqn" | grep -A1 'ANSWER SECTION:' | tail -n 1 | awk '{split($1, spl, ".")} {printf "The subdomain %s is a %s record and points to %s\n",spl[1],$4,$5}'
 	done
     fi
 }
