@@ -6,7 +6,7 @@ func()
     if [ $# -eq 2 ]; then
 	dig "$2.$1" | grep -A1 'ANSWER SECTION:' | tail -n 1 | awk '{split($1, spl, ".")} {printf "The subdomain %s is a %s record and points to %s\n",spl[1],$4,$5}'
     elif [ $# -eq 1 ]; then
-	for sub in 'www' '404-lb-01' '404-web-01' '404-web-02'; do
+	for sub in 'www' 'lb-01' 'web-01' 'web-02'; do
 	    fdqn=$sub.$1
 	    dig "$fdqn" | grep -A1 'ANSWER SECTION:' | tail -n 1 | awk '{split($1, spl, ".")} {printf "The subdomain %s is a %s record and points to %s\n",spl[1],$4,$5}'
 	done
