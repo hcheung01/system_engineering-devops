@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # nginx as su instead of root
 pkill "apache2"
-sudo sed -i '1i user nginx;' /etc/nginx/nginx.conf
+sudo sed -i 's/#user www-data/nginx/g' /etc/user nginx/nginx.conf
 sudo sed -i 's/\<80\>/&80/' /etc/nginx/sites-available/default
 sudo chmod 644 /etc/nginx/nginx.conf
 sudo -u nginx service nginx restart
