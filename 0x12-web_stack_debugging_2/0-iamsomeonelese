@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# who am i
+echo $1
