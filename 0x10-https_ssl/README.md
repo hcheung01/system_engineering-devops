@@ -2,7 +2,7 @@
 ---
 ## Description
 
-This project in the High Level Programming series is about:
+This project in the System engineering & DevOps ― Web stack series is about:
 * What is HTTPS SSL 2 main roles
 * What is the purpose encrypting traffic
 * What SSL termination means

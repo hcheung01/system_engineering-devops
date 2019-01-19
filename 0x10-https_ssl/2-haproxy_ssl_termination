@@ -52,7 +52,7 @@ frontend http_front
 
 backend http_back
 	balance roundrobin
-        server 404-web-01 35.243.155.238:80 check
+        server 404-web-01 34.73.47.85:80 check
         server 404-web-02 34.73.31.23:80 check
 
 frontend www-https
