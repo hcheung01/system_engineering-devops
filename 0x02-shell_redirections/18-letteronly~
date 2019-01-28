@@ -1,2 +1,0 @@
-#!/bin/bash
-grep -e [:upper:]* [:lower:]* /etc/ssh/sshd_config

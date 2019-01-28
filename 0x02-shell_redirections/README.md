@@ -1,3 +1,63 @@
+# 0x02. Shell, I/O Redirections and filters
+---
+## Description
+
+This project in the System engineering & DevOps ― Bash series is about:
+* What do the commands head, tail, find, wc, sort, uniq, grep, tr do
+* How to redirect standard output to a file
+* How to get standard input from a file instead of the keyboard
+* How to send the output from one program to the input of another program
+* How to combine commands and filters with redirections
+* What are special characters
+* Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them
+* How to display a line of text
+* How to concatenate files and print on the standard output
+* How to reverse a string
+* How to remove sections from each line of files
+* What is the /etc/passwd file and what is its format
+* What is the /etc/shadow file and what is its format
+
+## Files
+---
+```bash
+.
+├── 0-hello_world
+├── 100-empty_casks
+├── 101-gifs
+├── 102-acrostic
+├── 103-the_biggest_fan
+├── 10-no_more_js
+├── 11-directories
+├── 12-newest_files
+├── 13-unique
+├── 14-findthatword
+├── 15-countthatword
+├── 16-whatsnext
+├── 17-hidethisword
+├── 18-letteronly
+├── 19-AZ
+├── 1-confused_smiley
+├── 20-hiago
+├── 21-reverse
+├── 22-users_and_homes
+├── 2-hellofile
+├── 3-twofiles
+├── 4-lastlines
+├── 5-firstlines
+├── 6-third_line
+├── 7-file
+├── 8-cwd_state
+├── 9-duplicate_last_line
+└── README.md
+```
+
+## Directories
+---
+Directory Name | Description
+---|---
+0x02-shell_redirections | main directory for all files
+
+## Commands and tasks
 1. echo "Hello, World" to print the string
 2. cat /etc/passwd to display the content of the the file passwd
 3. cat /etc/passwd /etc/hosts to display two files contents
