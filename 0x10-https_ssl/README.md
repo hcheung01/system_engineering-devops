@@ -7,6 +7,9 @@ This project in the System engineering & DevOps ― Web stack series is about:
 * What is the purpose encrypting traffic
 * What SSL termination means
 
+## How it works
+Purpose of the scripts listed below is to setup Haproxy SSL by automation
+
 ## Files
 ---
 File|Task
@@ -19,7 +22,7 @@ File|Task
 ---
 Directory Name | Description
 ---|---
-0x10-https_ssl | Main folder with all bash scripts to setup Haproxy SSL
+0x10-https_ssl | Main folder with all bash scripts
 
 ## Author
 Heindrick Cheung
