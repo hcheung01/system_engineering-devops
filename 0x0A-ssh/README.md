@@ -9,6 +9,7 @@ This project in the System Engineering & Devops series is about:
 * How to create an SSH RSA key pair
 * How to connect to a remote host using an SSH RSA key pair
 
+## Note
 All Scripts will use "#!/usr/bin/env bash" directory
 
 ## Files
