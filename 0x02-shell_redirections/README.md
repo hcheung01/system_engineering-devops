@@ -83,3 +83,6 @@ Directory Name | Description
 23. find -empty -printf "%f\n" to find all empty files and directories in current directory
 24. find . -type f -name "*.gif" -printf "%f\n" | rev | cut -d. -s -f2- | rev | LC_ALL=C sort -f to search for gifs in current and subdirectories with no extension  
 25. echo $(cut -c 1 | tr -d "\n") using echo variable expansion to decode acrostics
+
+## Author
+Heindrick Cheung
