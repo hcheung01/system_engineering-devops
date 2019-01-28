@@ -15,6 +15,12 @@ This project in the System Engineering & Devops series is about:
 * Why web server usually have a parent process and child processes
 * What are the main HTTP requests
 
+## How it works
+These scripts is automated to setup/deploy an Nginx webserver with minor configurations and transfer minimal settings and contents
+
+## How it compile
+No need to do anything since they are Bash scripts and already executable
+
 ## Files
 ---
 File|Task
