@@ -42,8 +42,6 @@ This project in the System engineering & DevOps ― Bash series is about:
 
 ## Files
 ---
-File
----
 ```bash
 .
 ├── 0-current_working_directory
