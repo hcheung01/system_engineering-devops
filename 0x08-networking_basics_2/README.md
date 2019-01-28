@@ -8,6 +8,12 @@ This project in the System engineering & DevOps ― Networking  series is about:
 * What is /etc/hosts
 * How to display your machine’s active network interfaces
 
+## How it works
+There is 3 bash scripts in this directory each with its own purpose, please check below for individual purpose. You can also use the "cat" command to read the comment line for more information and to see the Bash command
+
+## Do I need to compile?
+No, and the files is already executable. If not just "chmod u+x"
+
 ## Files
 ---
 File|Task
