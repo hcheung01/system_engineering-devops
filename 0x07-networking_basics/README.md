@@ -13,6 +13,9 @@ This project in the System engineering & DevOps ― Networking series is about:
 * TCP/UDP Ports, what is it and memorize SSH|HTTP|HTTPS port numbers
 * Tool/protocal often used to check if a device is connected to a network
 
+## How it works
+These files are just answers to networking questions
+
 ## Files
 ---
 File|Task
