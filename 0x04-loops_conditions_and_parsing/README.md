@@ -14,7 +14,7 @@ This project in the System engineering & DevOps ― Bash series is about:
 You can open the file with your favorite editor to see the bash command and read the comments on the second line or use the "cat" command
 
 ## How to compile it
-* Since all files are Bash scripts, there is no need to execute. Just run it in the command line
+Since all files are Bash scripts, there is no need to execute. Just run it in the command line
 
 ## Files
 ---
