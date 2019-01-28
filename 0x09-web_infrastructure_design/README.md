@@ -10,8 +10,6 @@ This project in the System engineering & DevOps ― Web stack series is about:
 
 ## Files
 ---
-File|Task
----|---
 0-simple_web_stack
 1-distributed_web_infrastructure
 2-secured_and_monitored_web_infrastructure
