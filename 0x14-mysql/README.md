@@ -21,7 +21,7 @@ All Bash Script need to be executable and passes Shellcheckversion 0.3.3-1~ubunt
 ---
 File|Task
 ---|---
-0-mysql_configuration_primary, 0-mysql_configuration_replica | Bash Script that install and configure MySQL on my web server 1 & 2
+0-mysql_configuration_primary, 0-mysql_configuration_replica | Primary and Replica configuration after installation
 1-mysql_backup | Bash script that generates a MySQL dump and creates a compressed archive out of it.
 
 ## Directories
