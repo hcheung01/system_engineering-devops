@@ -25,7 +25,7 @@ if __name__ == "__main__":
     todo = requests.get('https://jsonplaceholder.typicode.com/todos',
                         params=payload2).json()
 
-    print('Employee {} is done with tasks({}/{})'.format(
+    print('Employee {} is done with tasks({}/{}):'.format(
         user[0].get('name'),
         counter(todo),
         len(todo)))
