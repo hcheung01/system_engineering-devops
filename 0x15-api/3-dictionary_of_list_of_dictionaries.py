@@ -104,9 +104,9 @@ if __name__ == "__main__":
     todo = requests.get('https://jsonplaceholder.typicode.com/todos',
                         params=payload2).json()
 
-    print_response(user, todo)
     try:
         save_to_csv(user, todo, csv_file)
         save_to_json(user, todo, json_file)
+        print_response(user, todo)
     except:
         save_all_to_json(user, todo, json_file)
