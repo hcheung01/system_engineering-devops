@@ -32,4 +32,4 @@ if __name__ == "__main__":
 
     for arg in todo:
         if arg.get('completed') is True:
-            print("\t{}".format(arg.get('title')))
+            print("\t {}".format(arg.get('title')))
