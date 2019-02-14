@@ -4,7 +4,6 @@ recursive function
 """
 import requests
 
-
 s = requests.Session()
 s.headers.update({'User-Agent': 'Script'})
 s.allow_redirects = False
@@ -21,6 +20,6 @@ def recurse(subreddit, hot_list=[]):
         if r['data']['after']:
             s.params = {'after': r['data']['after']}
             return recurse(subreddit, hot_list)
-        return hot_list or None
+        return hot_list
     except:
-        pass
+        return None
