@@ -5,21 +5,21 @@ recursive function
 from requests import Session
 
 
+s = Session()
+s.headers.update({'User-Agent': 'Script'})
+s.allow_redirects = False
+
+
 def recurse(subreddit, hot_list=[]):
-    """recurse the api"""
+    """recursively grab subreddit"""
 
     print(hot_list)
     url = "https://www.reddit.com/r/" + subreddit + "/hot.json"
-    s = Session()
-    s.headers.update({'User-Agent': 'Honey'})
-    s.allow_redirects = False
-
-    data = s.get(url).json()['data']
-    children = data['children']
-    for t in children:
+    r = s.get(url).json()
+    for t in r['data']['children']:
         hot_list.append(t['data']['title'])
-    after = data['after']
-    if after:
-        s.params = {'after': after}
+    if r['data']['after']:
+        s.params = {'after': r['data']['after']}
         return recurse(subreddit, hot_list)
-    return hot_list or None
+    else:
+        return hot_list
