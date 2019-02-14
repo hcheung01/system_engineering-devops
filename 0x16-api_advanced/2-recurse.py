@@ -17,7 +17,7 @@ def recurse(subreddit, hot_list=[]):
     try:
         for t in r['data']['children']:
             hot_list.append(t['data']['title'])
-        if r['data]['after']:
+        if r['data']['after']:
             s.params = {'after': r['data']['after']}
             return recurse(subreddit, hot_list)
         return hot_list
