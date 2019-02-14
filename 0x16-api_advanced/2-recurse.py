@@ -13,12 +13,12 @@ def recurse(subreddit, hot_list=[]):
     """recursively grab subreddit"""
 
     url = "https://www.reddit.com/r/" + subreddit + "/hot.json"
-    r = s.get(url).json()['data']
+    r = s.get(url).json()
     try:
-        for t in r['children']:
+        for t in r['data']['children']:
             hot_list.append(t['data']['title'])
-        if r['after']:
-            s.params = {'after': r['after']}
+        if r['data']['after']:
+            s.params = {'after': r['data']['after']}
             return recurse(subreddit, hot_list)
         return hot_list
     except:
