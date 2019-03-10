@@ -1,0 +1,12 @@
+description "Gunicorn application server running airbnb-dynamic"
+
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+respawn
+setuid ubuntu
+setgid www-data
+
+env PATH=/home/ubuntu/myproject/myprojectenv/bin
+chdir /home/ubuntu/myproject/AirBnB_clone_v2/web_flask
+exec gunicorn --workers 3 --bind 0.0.0.0:5001 6-number_odd_or_even:app
