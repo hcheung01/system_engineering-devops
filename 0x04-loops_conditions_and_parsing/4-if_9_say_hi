@@ -7,6 +7,6 @@ while [ $i -lt 10 ]; do
     then
 	echo "Hi"
     fi
-    echo "Holberton School"
+    echo "codingschool School"
     i=$((i+1))
 done

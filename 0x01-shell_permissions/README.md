@@ -23,7 +23,7 @@ This project in the System engineering & DevOps ― Bash series is about:
 .
 ├── 0-iam_betty
 ├── 100-Star_Wars
-├── 101-man_holberton
+├── 101-man_codingschool
 ├── 10-mirror_permissions
 ├── 11-directories_permissions
 ├── 12-directory_permissions
@@ -58,10 +58,10 @@ This project in the System engineering & DevOps ― Bash series is about:
 9. chmod 753 hello to set specific permissions
 10. chmod --reference=olleh hello to set one file equal to another file
 11. chmod -R  a+X . to change permissions for all subdirectories
-12. mkdir -m751 dir_holberton to create new directory with 751 permissions
-13. chown :holberton hello to change group owner
-14. chown -R betty:holberton .  to change all files and directories
-15. chown -h betty:holberton _hello to change owner and group owner for file
+12. mkdir -m751 dir_codingschool to create new directory with 751 permissions
+13. chown :codingschool hello to change group owner
+14. chown -R betty:codingschool .  to change all files and directories
+15. chown -h betty:codingschool _hello to change owner and group owner for file
 16. chown --from=guillame betty hello to change owner if it is a specified user
 100. script that will play the StarWars IV episode in the terminal
 101. Create a man page

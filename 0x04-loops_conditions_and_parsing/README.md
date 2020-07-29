@@ -25,9 +25,9 @@ File|Task
 ├── 0-RSA_public_key.pub
 ├── 102-lets_parse_apache_logs
 ├── 10-fizzbuzz
-├── 1-for_holberton_school
-├── 2-while_holberton_school
-├── 3-until_holberton_school
+├── 1-for_codingschool_school
+├── 2-while_codingschool_school
+├── 3-until_codingschool_school
 ├── 4-if_9_say_hi
 ├── 5-4_bad_luck_8_is_your_chance
 ├── 6-superstitious_numbers

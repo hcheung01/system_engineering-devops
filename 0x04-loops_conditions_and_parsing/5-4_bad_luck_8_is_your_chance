@@ -10,7 +10,7 @@ while [ $i -lt 10 ]; do
       then
 	echo "good luck"
       else
-	echo "Holberton School"
+	echo "codingschool School"
       fi
       i=$((i+1))
 done

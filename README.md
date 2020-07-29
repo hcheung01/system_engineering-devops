@@ -1,7 +1,7 @@
-## System Engineering & DevOps Track at Holberton School
+## System Engineering & DevOps Track at codingschool School
 
 ## About
-This repository is one of the several tracks that I've been learning to become a Full Stack Software Engineer at Holberton School and below is a tree that displays files in this directory:
+This repository is one of the several tracks that I've been learning to become a Full Stack Software Engineer at codingschool School and below is a tree that displays files in this directory:
 
 ## Major Focus for this track
 * Bash
@@ -38,12 +38,12 @@ All files are maintained and owned by Heindrick Cheung
 │   ├── 7-movethatfile
 │   ├── 8-firstdelete
 │   ├── 9-firstdirdeletion
-│   ├── holberton.mgc
+│   ├── codingschool.mgc
 │   └── README.md
 ├── 0x01-shell_permissions
 │   ├── 0-iam_betty
 │   ├── 100-Star_Wars
-│   ├── 101-man_holberton
+│   ├── 101-man_codingschool
 │   ├── 10-mirror_permissions
 │   ├── 11-directories_permissions
 │   ├── 12-directory_permissions
@@ -113,9 +113,9 @@ All files are maintained and owned by Heindrick Cheung
 │   ├── 0-RSA_public_key.pub
 │   ├── 102-lets_parse_apache_logs
 │   ├── 10-fizzbuzz
-│   ├── 1-for_holberton_school
-│   ├── 2-while_holberton_school
-│   ├── 3-until_holberton_school
+│   ├── 1-for_codingschool_school
+│   ├── 2-while_codingschool_school
+│   ├── 3-until_codingschool_school
 │   ├── 4-if_9_say_hi
 │   ├── 5-4_bad_luck_8_is_your_chance
 │   ├── 6-superstitious_numbers
@@ -139,7 +139,7 @@ All files are maintained and owned by Heindrick Cheung
 │   ├── manage_my_process
 │   └── README.md
 ├── 0x06-regular_expressions
-│   ├── 0-simply_match_holberton.rb
+│   ├── 0-simply_match_codingschool.rb
 │   ├── 100-textme.rb
 │   ├── 101-passed_linkedin_regex_challenge.jpg
 │   ├── 1-repetition_token_0.rb

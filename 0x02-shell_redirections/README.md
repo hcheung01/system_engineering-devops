@@ -64,7 +64,7 @@ Directory Name | Description
 4. tail /etc/passwd to display the last 10 lines of passwd file
 5. head /etc/passwd to display the first 10 lines of passwd file
 6. head -n 3 iacta | tail -n 1
-7. echo -e "Holberton School\n" > "\*\\'"Holberton" "School"\'\\*$\?\*\*\*\*\*:)" to create file name with special characters.
+7. echo -e "codingschool School\n" > "\*\\'"codingschool" "School"\'\\*$\?\*\*\*\*\*:)" to create file name with special characters.
 8. ls -la > ls_cwd_content to push list into file
 9. tail -n 1 iacta >> iacta to push last line into another file
 10. find . -name \*.js -type f -delete to remove files in current directory or subdirectories

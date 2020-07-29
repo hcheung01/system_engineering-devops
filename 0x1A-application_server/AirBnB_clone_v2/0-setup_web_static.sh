@@ -6,7 +6,7 @@ if ! dpkg -s nginx; then
     if apt-get -y install nginx; then
 	ADD="\\\tlocation \/redirect_me {\n\t\treturn 301 http://heindrickcheung.site;\n\t}\n"
 	HEADER="\\\n\tadd_header X-Served-By \$hostname;"
-	echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+	echo "codingschool School" | sudo tee /usr/share/nginx/html/index.html
 	sed -i "30i $ADD" $WHERE
 	sed -i "29i $HEADER" $WHERE
 	new="\t\terror_page 404 @my404;"

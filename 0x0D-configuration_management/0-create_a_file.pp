@@ -1,7 +1,7 @@
 # A resource declaration
-file { '/tmp/holberton':
+file { '/tmp/codingschool':
   ensure  => file,
-  path    => '/tmp/holberton',
+  path    => '/tmp/codingschool',
   mode    => '0744',
   owner   => 'www-data',
   group   => 'www-data',

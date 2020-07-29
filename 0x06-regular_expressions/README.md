@@ -17,7 +17,7 @@ File|Task
 ---|---
 ```bash
 .
-├── 0-simply_match_holberton.rb
+├── 0-simply_match_codingschool.rb
 ├── 100-textme.rb
 ├── 101-passed_linkedin_regex_challenge.jpg
 ├── 1-repetition_token_0.rb

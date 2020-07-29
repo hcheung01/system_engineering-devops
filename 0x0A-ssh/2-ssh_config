@@ -3,5 +3,5 @@ Host *
  AddKeysToAgent yes
  UseKeychain yes
  IdentityFile ~/.ssh/id_rsa
- IdentityFile ~/.ssh/holberton
+ IdentityFile ~/.ssh/codingschool
  PasswordAuthentication no

@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # check if file exists or not
 
-if [ -e "holbertonschool" ]; then
-   echo "holbertonschool file exists"
-   if [ -s "holbertonschool" ]; then
-       echo "holbertonschool file is not empty"
+if [ -e "codingschoolschool" ]; then
+   echo "codingschoolschool file exists"
+   if [ -s "codingschoolschool" ]; then
+       echo "codingschoolschool file is not empty"
    else
-       echo "holbertonschool file is empty"
+       echo "codingschoolschool file is empty"
    fi
-   if [ -f "holbertonschool" ]; then
-       echo "holbertonschool is a regular file"
+   if [ -f "codingschoolschool" ]; then
+       echo "codingschoolschool is a regular file"
    fi
 else
-   echo "holbertonschool file does not exist"
+   echo "codingschoolschool file does not exist"
 fi

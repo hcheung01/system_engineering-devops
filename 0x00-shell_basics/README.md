@@ -63,7 +63,7 @@ This project in the System engineering & DevOps ― Bash series is about:
 ├── 7-movethatfile
 ├── 8-firstdelete
 ├── 9-firstdirdeletion
-├── holberton.mgc
+├── codingschool.mgc
 ├── README.md
 └── test
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # create pub file with its own pid and receive SIG
-sudo bash -c "echo $$ > /var/run/holbertonscript.pid"
-trap "sudo rm -f /var/run/holbertonscript.pid; exit" SIGQUIT
-trap "sudo rm -f /var/run/holbertonscript.pid; echo I hate the kill command; exit" SIGTERM
+sudo bash -c "echo $$ > /var/run/codingschoolscript.pid"
+trap "sudo rm -f /var/run/codingschoolscript.pid; exit" SIGQUIT
+trap "sudo rm -f /var/run/codingschoolscript.pid; echo I hate the kill command; exit" SIGTERM
 trap "echo Y U no love me?!" SIGINT
 while :
 do
