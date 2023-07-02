@@ -1,7 +1,7 @@
-## System Engineering & DevOps Track at codingschool School
+## System Engineering & DevOps Track
 
 ## About
-This repository is one of the several tracks that I've been learning to become a Full Stack Software Engineer at codingschool School and below is a tree that displays files in this directory:
+This repository is one of the several tracks that I've been learning to become a Full Stack Software Engineer at and below is a tree that displays files in this directory:
 
 ## Major Focus for this track
 * Bash
